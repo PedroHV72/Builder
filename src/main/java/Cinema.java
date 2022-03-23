@@ -1,19 +1,17 @@
 public class Cinema {
-    private String poltrona;
+    private int poltrona;
     private String pipoca;
     private String bebida;
 
     public Cinema() {
-        this.poltrona = "";
-        this.pipoca = "";
-        this.bebida = "";
+        this.poltrona = 0;
     }
 
-    public String getPoltrona() {
+    public int getPoltrona() {
         return poltrona;
     }
 
-    public void setPoltrona(String poltrona) {
+    public void setPoltrona(int poltrona) {
         this.poltrona = poltrona;
     }
 
